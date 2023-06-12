@@ -1,0 +1,638 @@
+@charset "UTF-8";
+/*
+Theme Name: company
+*/
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+    width: 60%;
+}
+
+body {
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif, 'Lato';
+    font-size: 14px;
+    color: #333;
+    line-height: 1.9;
+    text-align: left;
+    margin: 0;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+    font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+*, :after, :before {
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+ユーザー エージェント スタイルシート
+body {
+    display: block;
+    margin: 8px;
+}
+
+:root {
+    --wp-admin-theme-color: #007cba;
+    --wp-admin-theme-color-darker-10: #006ba1;
+    --wp-admin-theme-color-darker-20: #005a87;
+}
+@media only screen and (min-width: 769px) {
+
+    html {
+        font-size: 70%;
+    }
+    html {
+        font-size: 62.5%;
+    }
+    html {
+        box-sizing: border-box;
+        overflow-y: scroll;
+        -webkit-text-size-adjust: 100%;
+    }
+}
+
+#loading {
+    z-index: 100000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #FFF url(img/common/logo.svg) center center no-repeat;
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+#container > h1 {
+    position: relative;
+    padding: 2px;
+    background: #00a3c7;
+    font-size: 1.1rem;
+    color: #FFF;
+}
+
+#header {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background: #00a3c7;
+    line-height: 1;
+    z-index: 100;
+}
+
+#logo {
+    width: calc(94% - 144px);
+    padding: 0 16px 0 8px;
+}
+
+@media only screen and (min-width: 769px) {
+    #logo {
+        width: calc(90% - 144px);
+        padding: 0 16px 0 8px;
+    }
+
+}
+
+a {
+    color: #333;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+#logo img {
+    width: 126px;
+}
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    vertical-align: middle;
+    -webkit-backface-visibility: hidden;
+}
+
+*, :after, :before {
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#contact img, #line img {
+    height: 26px;
+}
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    vertical-align: middle;
+    -webkit-backface-visibility: hidden;
+}
+
+#contact img, #line img {
+    height: 26px;
+}
+
+#nav {
+    pointer-events: none;
+    opacity: 0;
+    position: fixed;
+    top: -40px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 40px 4vw;
+    background: rgba(11,11,11,.9);
+    overflow: auto;
+    z-index: 200;
+    -webkit-transition: .8s cubic-bezier(.19,1,.22,1);
+    transition: .8s cubic-bezier(.19,1,.22,1);
+}
+
+ul, ol {
+    list-style: none;
+}
+
+#nav li {
+    padding: 12px 0;
+    text-align: center;
+}
+
+#nav a {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    color: #FFF;
+}
+
+#open {
+    display: block;
+    width: 26px;
+    height: 48px;
+    margin-right: 12px;
+    text-align: center;
+    z-index: 300;
+    cursor: pointer;
+}
+
+#open div {
+    position: relative;
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin: 6px 0;
+    transition: .2s linear;
+}
+
+#open span:nth-child(1) {
+    top: 8px;
+}
+
+#open span:nth-child(2) {
+    top: 16px;
+}
+
+#open span:nth-child(3) {
+    top: 24px;
+}
+
+i {
+    font-style: normal;
+}
+i {
+    vertical-align: middle;
+}
+
+#open span {
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 26px;
+    height: 3px;
+    background: #FFF;
+    transition: .2s linear;
+}
+
+
+
+
+
+#header.is-fixed + * {
+    margin-top: 48px;
+}
+
+@media only screen and (min-width: 769px) {
+
+    #main {
+        max-width: 880px;
+        margin: 0 auto;
+    }
+}
+
+#mv {
+    padding: 0;
+    text-align: center;
+    background: #F5F5F5;
+}
+
+@media only screen and (min-width: 769px) {
+
+    article.full {
+        width: 100vw;
+        margin: 0 calc(50% - 50vw);
+    }
+}
+article {
+    padding: 20px;
+}
+
+.animated {
+    /*opacity: 0;*/
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+picture {
+    display: block;
+}
+
+@media only screen and (min-width: 769px) {
+
+    article.full {
+        width: 100vw;
+        margin: 0 calc(50% - 50vw);
+    }
+}
+
+.contact {
+    text-align: center;
+    background-image: url(images/btn_background.png);
+}
+
+article p {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+
+@media only screen and (min-width: 769px) {
+
+    .btn {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+.btn  {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.btn img {
+    padding-bottom: 50px;
+}
+
+.sec03 img {
+    max-width: none;
+    margin: 0 calc(50% - 50vw);
+}
+
+.sec03 {
+    width: 100%;
+}
+
+.btn2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.sec09 {
+    margin-top: 150px;
+}
+
+.contact01 {
+    text-align: center;
+    background-image: url(images/frame02.png);
+}
+
+
+article .font01 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 769px) {
+
+    #footer {
+        padding-bottom: 240px;
+    }
+}
+
+#footer {
+    padding-bottom: calc(90 / 400 * 100%);
+    background: #7ecef4;
+}
+
+.info {
+    position: relative;
+    color: #FFF;
+}
+
+#pagetop {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+}
+
+#pagetop a {
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+
+.sns {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.sns li {
+    padding: 0 16px;
+}
+
+.info p {
+    padding: 24px 0;
+    text-align: center;
+}
+
+.info p img {
+    width: 20%;
+}
+
+.info address {
+    padding-bottom: 24px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
+#floating {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+}
+
+#floating img {
+    width: 55%;
+}
+
+.sns .twitter img {
+    width: 100%;
+}
+
+.sns .instagram img {
+    width: 100%;
+}
+
+.sns .tiktok img {
+    width: 100%;
+}
+
+
+
+.open #nav {
+    pointer-events: auto;
+    opacity: 1;
+    top: 0;
+}
+ul, ol {
+    list-style: none;
+}
+.open #nav li {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+#nav li {
+    padding: 12px 0;
+    text-align: center;
+}
+#nav a {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    color: #FFF;
+}
+#open {
+    display: block;
+    width: 26px;
+    height: 48px;
+    margin-right: 12px;
+    text-align: center;
+    z-index: 300;
+    cursor: pointer;
+}
+#open div {
+    position: relative;
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin: 6px 0;
+    transition: .2s linear;
+}
+
+.open #open span:nth-child(1) {
+    top: 16px;
+    background: #FFF;
+    -webkit-transform: rotate(
+45deg
+);
+    -moz-transform: rotate(45deg);
+    transform: rotate(
+45deg
+);
+}
+#open span:nth-child(1) {
+    top: 8px;
+}
+#open span {
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 26px;
+    height: 3px;
+    background: #FFF;
+    transition: .2s linear;
+}
+
+
+.open #open span:nth-child(2) {
+    width: 0;
+    left: -24px;
+}
+
+#open span:nth-child(2) {
+    top: 16px;
+}
+
+.open #open span:nth-child(3) {
+    top: 16px;
+    background: #FFF;
+    -webkit-transform: rotate(
+-45deg
+);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(
+-45deg
+);
+}
+#open span:nth-child(3) {
+    top: 24px;
+}
